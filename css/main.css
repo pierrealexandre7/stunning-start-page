@@ -39,3 +39,31 @@ nav {
   grid-column: 1 / -1;
   grid-row: 1;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0 1rem;
+  list-style-type: none;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  border: 2px solid #960062;
+  background-color: #bd027d;
+  padding: .5em .8em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #eccee2;
+}
+
+nav a:hover {
+  background-color: #960062;
+}
