@@ -7,7 +7,7 @@ html {
 }
 
 *,
-*::before;
+*::before,
 *::after {
   box-sizing: inherit;
 }
@@ -26,8 +26,8 @@ header {
   grid-template-columns: auto 10rem auto;
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
-  "left center right"
-  ".    center   .";
+    "left center right"
+    ".    center   .";
 
   margin-bottom: 1.5rem;
 }
@@ -110,9 +110,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+    "top"
+    "middle"
+    "bottom";
 }
 
 section h3 {
